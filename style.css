@@ -1,0 +1,23 @@
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer ul {
+	list-style-type: none; 
+}
+
+.row{
+
+	margin-top:2em;
+
+
+}
+
+
