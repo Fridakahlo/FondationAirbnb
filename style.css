@@ -1,5 +1,9 @@
 .row {
-	margin-top:2em;
+	margin-top: 2em;
+}
+
+h3 {
+	font-weight: bold;
 }
 
 i {
@@ -19,5 +23,3 @@ footer a {
 footer ul {
 	list-style-type: none; 
 }
-
-
