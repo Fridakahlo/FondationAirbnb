@@ -3,60 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/foundation.css" />
-	<link rel="stylesheet" href="foundation-ioncs/foundation-icons.css">
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="style.css">
 </head>
-	<body>
-	<thead>
-		<tr>
-			<th width="300" class="has-form">
-				<div class="large-5 small-5 columns">
-					<input type="text" placeholder="ou ?"></div></th>
-					<th width="150"><a href="#" class="button">Devenez hote</a></th>
-					<th></th>
-					<th width="150"><a href="#" class="button">Aide</a></th>
-					<th width="150"><a href="#" class="button">Inscription</a></th>
-					<th width="150"><a href="#" class="button">Connexion</a></th>
-				</tr>
-				<div class="large-12 columns">
-					<h1 class="text-center">VIVEZ LA-BAS</h1>
-					<p class="text-center">Réservez des logement auprés d'hotes locaux dans plus de 191 pays et vivez la-bas , comme chez vous .</p>
-					<h3 class="text-center">En savoir plus sur Airbnb</h3>
-				</div>
-			</thead>
-					<ul class="menu">
-						<li width="300" class="has-form">
-							<div class="large-2 small-5 columns">
-							<input type="text" placeholder="ou ?"></div>
-						</li>
-						<li width="100" class="has-form">
-							<a href="#" class="button tiny" id="dp4" data-date-format="yyyy-mm-dd" data-date="2012-02-20">Arrivée</a>&nbsp;
-						</li>
-						<li>
-							<a href="#" class="button tiny" id="dp5" data-date-format="yyyy-mm-dd" data-date="2012-02-25">Départ</a>&nbsp;
-						</li>
-						<li>
-							<div class="large-4 columns">
-								<label for="customDropdown1"></label>
-								<select id="customDropdown1" class="medium">
-									<option >1 voyageurs</option>
-									<option>2 voyageurs</option>
-									<option>3 voyageurs</option>
-									<option>4 voyageurs</option>
-								</select>
-							</div>
-						</li>
-						</ul>
-					</tr>
-				</tbody>	
-			</thead>
+<body>
+<!--header-->
+	<div data-sticky-container>
+		<div class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+			<div class="title-bar-left">
+				<ul class="menu">
+					<li> Airbnb </li>
+					<li>	<input type="text" placeholder="ou ?" /></li>
+				</ul>
+			</div>
+			<div class="title-bar-right"><ul class="menu">
+				<li><a href="#" class="button">Devenez hote</a></li>
+				<li><a href="#" class="button">Aide</a></li>
+				<li><a href="#" class="button">Inscription</a></li>
+				<li><a href="#" class="button">Connection</a></li>
+			</ul></div>
+		</div>
+
+
+		<div class="large-12 columns">
+			<h1 class="text-center">VIVEZ LA-BAS</h1>
+			<p class="text-center">Réservez des logement auprés d'hotes locaux dans plus de 191 pays et vivez la-bas , comme chez vous .</p>
+			<h3 class="text-center">En savoir plus sur Airbnb</h3>
+
+		</div>
+	</div>
+</div>
+<div class="row">
+<div class="large-7 large-offset-2 columns">
+<ul class="menu align-center" >
+	<li><input type="text" placeholder="ou ?" /></li>
+	<li><input  type="text" placeholder="Départ"/></li>
+	<li><input  type="text" placeholder="Arrivée" /></li>
+	<li><label><select type="text">
+			<option>1voyageurs</option>
+			<option>2voyageurs</option>
+			<option>3voyageurs</option>
+			<option>4voyageurs</option>
+		</select>
+		</label>
+	</li>
+
+<li><a href="#" class="button">Rechercher</a></li>
+</ul>
+</div>
+</div>
+<!--Partie centrale-->
 		<div class="row">
 			<div class="large-1 columns"></div>
-		  		<div class="large-7 columns">
-					<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=950&h=400'/>
+		  		<div class="large-6 columns">
+					<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=680&h=400'/>
 		  		</div>
-		 		<div class="large-3 columns"><h3>Ouvrez la porte à un voyageur et à une nouvelle vie</h3>
+		 		<div class="large-4 columns"><h3>Ouvrez la porte à un voyageur et à une nouvelle vie</h3>
 					<span>Gagnez de l'argent en accueillant des voyageurs.</span>
 					<a class="expanded button" href="#">Estimer mes revenus</a>
 				</div>
@@ -159,7 +162,7 @@
 	    <div class="row">
  			<div class="large-7 large-offset-5 columns"> <a href="#" class="button">Voir toutes les guides</a></div>
         </div>
-
+<!--orbit-->
      <div class="docs-code-live"><div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit="a0nh9o-orbit">
 
 	 	<ul class="orbit-container" tabindex="0" style="height: 560px;">
@@ -167,23 +170,23 @@
 		    <button class="orbit-next" tabindex="0"><span class="show-for-sr">Next Slide</span>▶︎</button>
 
 		    <li class="orbit-slide is-active" data-slide="0" style="max-height: 560px; display: block; position: relative; top: 0px;" aria-live="polite">
-		      <img class="orbit-image" src="http://lorempicsum.com/futurama/627/300/4" alt="Space">
-		      <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+		      <img class="orbit-image" src="https://unsplash.it/458/354?image=1044" alt="Space">
+		      <figcaption class="orbit-caption">USA</figcaption>
 		    </li>
 
 	    <li class="orbit-slide" data-slide="1" style="position: relative; max-height: 560px; top: 0px; display: none;">
-	      <img class="orbit-image" src="http://lorempicsum.com/nemo/627/300/4" alt="Space">
-	      <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+	      <img class="orbit-image" src="https://unsplash.it/458/354?image=1051" alt="Space">
+	      <figcaption class="orbit-caption">France</figcaption>
 	    </li>
 
 	    <li class="orbit-slide" data-slide="2" style="position: relative; max-height: 560px; top: 0px; display: none;">
-	      <img class="orbit-image" src="http://lorempicsum.com/simpsons/627/300/4" alt="Space">
-	      <figcaption class="orbit-caption">Encapsulating</figcaption>
+	      <img class="orbit-image" src="https://unsplash.it/458/354?image=1067" alt="Space">
+	      <figcaption class="orbit-caption">Canada</figcaption>
 	    </li>
 
 	    <li class="orbit-slide" data-slide="3" style="position: relative; max-height: 560px; top: 0px; display: none;">
-	      <img class="orbit-image" src="http://lorempicsum.com/up/627/300/4" alt="Space">
-	      <figcaption class="orbit-caption">Outta This World</figcaption>
+	      <img class="orbit-image" src="https://unsplash.it/458/354?image=1037" alt="Space">
+	      <figcaption class="orbit-caption">Suisse</figcaption>
 	    </li>
 
 	 	</ul>
@@ -196,137 +199,139 @@
 		</nav>
 	</div></div>
 	</div>
-
-
+<!--Partie communauté-->
 		<div class="row">
 	        <div class="large-12 columns"> </div>
 			<div class="large-12 columns"> <h3 class="text-center">Notre communauté</h3></div>
 	    </div>
 	    <div class="row">
-		        <div class="large-12 columns">
-		        	<div class="large-3 columns">
-		           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
-		            </div>
-		            <div class="large-3 columns">
-		           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
-		            </div>
-		            <div class="large-3 columns">
-		           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
-		            </div>
-		            <div class="large-3 columns">
-		           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
-		            </div>
-		        </div>
+	        <div class="large-12 columns">
+	        	<div class="large-3 columns">
+	           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
+	            </div>
+	            <div class="large-3 columns">
+	           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
+	            </div>
+	            <div class="large-3 columns">
+	           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
+	            </div>
+	            <div class="large-3 columns">
+	           		<img src='https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=492'/>
+	            </div>
+	        </div>
 	    </div>
+<!--Partie footer-->
 		<footer>
-            <div class="row align-center">
-                <div class="large-3 large-offset-1 columns">
-                    <select id="customDropdown1" class="medium">
-                           <option DISABLED>Français</option>
-                           <option>English</option>
-                           <option>Espanol</option>
-                           <option>Italiano</option>
-                    </select>
-                    <select id="customDropdown1" class="medium">
-                           <option DISABLED>USD</option>
-                           <option>KRW</option>
-                           <option>MAD</option>
-                           <option>MXN</option>
-                    </select>
-                </div>
-                <div class="large-2 columns">
-                    <ul>
-                        <li>
-                            <h6><b>Société</b></h6>
-                        </li>
-                        <li>
-                            <a href="#">A propos</a>
-                        </li>
-                        <li>
-                            <a href="#">Carrières</a>
-                        </li>
-                        <li>
-                            <a href="#">Presse</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Aide</a>
-                        </li>
-                        <li>
-                            <a href="#">Règles</a>
-                        </li>
-                        <li>
-                            <a href="#">Réponse aux catastrophes</a>
-                        </li>
-                        <li>
-                            <a href="#">Conditions générales et confidentialité</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="large-2 columns">
-                    <ul>
-                        <li>
-                            <h6><b>Découvrir</b></h6>
-                        </li>
-                        <li>
-                            <a href="#">Confiance et sécurité</a>
-                        </li>
-                        <li>
-                            <a href="#">Parrainer un ami</a>
-                        </li>
-                        <li>
-                            <a href="#">La sélection Airbnb</a>
-                        </li>
-                        <li>
-                            <a href="#">Application mobile</a>
-                        </li>
-                        <li>
-                            <a href="#">Airbnb Action</a>
-                        </li>
-                        <li>
-                            <a href="#">Voyage d'affaires</a>
-                        </li>
-                        <li>
-                            <a href="#">Plan du site</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="large-2 columns">
-                    <ul>
-                        <li>
-                            <h6><b>Hébergement</b></h6>
-                        </li>
-                        <li>
-                            <a href="#">Pourquoi être hôte</a>
-                        </li>
-                        <li>
-                            <a href="#">Hospitalité</a>
-                        </li>
-                        <li>
-                            <a href="#">Hébergement responsable</a>
-                        </li>
-                        <li>
-                            <a href="#">Sécurité à la maison</a>
-                        </li>
-                        <li>
-                            <a href="#">Réservation instentanée</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="row">
+            	<div class="large-10 columns">
+	                <div class="large-2 large-offset-1 columns">
+	                    <select id="customDropdown1" class="medium">
+	                           <option DISABLED>Français</option>
+	                           <option>English</option>
+	                           <option>Espanol</option>
+	                           <option>Italiano</option>
+	                    </select>
+	                    <select id="customDropdown1" class="medium">
+	                           <option DISABLED>USD</option>
+	                           <option>KRW</option>
+	                           <option>MAD</option>
+	                           <option>MXN</option>
+	                    </select>
+	                </div>
+	                <div class="large-2 large-offset-1 columns">
+	                    <ul>
+	                        <li>
+	                            <h6><b>Société</b></h6>
+	                        </li>
+	                        <li>
+	                            <a href="#">A propos</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Carrières</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Presse</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Blog</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Aide</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Règles</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Réponse aux catastrophes</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Conditions générales et confidentialité</a>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <div class="large-2 large-offset-1 columns">
+	                    <ul>
+	                        <li>
+	                            <h6><b>Découvrir</b></h6>
+	                        </li>
+	                        <li>
+	                            <a href="#">Confiance et sécurité</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Parrainer un ami</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">La sélection Airbnb</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Application mobile</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Airbnb Action</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Voyage d'affaires</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Plan du site</a>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <div class="large-2 large-offset-1 columns">
+	                    <ul>
+	                        <li>
+	                            <h6><b>Hébergement</b></h6>
+	                        </li>
+	                        <li>
+	                            <a href="#">Pourquoi être hôte</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Hospitalité</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Hébergement responsable</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Sécurité à la maison</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Réservation instentanée</a>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
             </div>
-                     <div class="text-center">
+            <div class="text-center">
                 <h6><b>Rejoignez-nous sur</b></h6>
                 <a href="#"><i class="fi-social-facebook"></i></a>
                 <a href="#"><i class="fi-social-google-plus"></i></a>
                 <a href="#"><i class="fi-social-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/airbnb"><i class="fi-2x-social-linkedin"></i></a>
+                <a href="#"><i class="fi-2x-social-linkedin"></i></a>
                 <a href="#"><i class="fi-social-pinterest"></i></a>
                 <a href="#"><i class="fi-social-youtube"></i></a>
 				<a href="#"><i class="fi-social-instagram"></i></a>
             </div>
-
+		</footer>
     	<script src="js/vendor/jquery.js"></script>
 	    <script src="js/vendor/what-input.js"></script>
 	    <script src="js/vendor/foundation.js"></script>
@@ -335,4 +340,3 @@
 	    </script>
 	</body>
 </html>
-
